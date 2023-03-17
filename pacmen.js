@@ -19,7 +19,6 @@ function makePac() {
   let velocity = setToRandom(10); 
   let position = setToRandom(200);
 
-
   let game = document.getElementById('game');
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
